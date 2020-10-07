@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border,Background</title>
+    <style>
+#firstPara{
+    background-color: tomato;
+    height: 100px;
+    width: 500px;
+    /* border-width: 2px;
+    border-color: cornflowerblue;
+    border-style: solid; */
+    border-radius: 3px;
+    border: 3px solid cornflowerblue;
+}
+#secondPara{
+    background-color: tomato;
+    height: 100px;
+    width: 500px;
+    border-top: darkcyan solid 8px;
+    border-bottom:darkcyan solid 8px;
+    border-left: burlywood solid 8px;
+    border-right: burlywood solid 8px;
+    padding: 15px;
+}
+#secondPara:hover{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#thirdPara{
+height: 400px;
+width: 500px;
+background-image: url('img/28536.jpg');
+border: 2px solid red;
+background-repeat: no-repeat; /*repeat-x and repeat-y will make it repeat on x and y axis */
+/* background-position: center 20px; */
+}
+    </style>
+</head>
+<body>
+    <h3>This is Lorem ipsum dolor sit.</h3>
+    <p id="firstPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, amet?</p>
+    <h3>This is Lorem ipsum dolor sit amet.</h3>
+    <p id="secondPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, amet?</p>
+    <h3>This is Lorem, ipsum.</h3>
+    <p id="thirdPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate, amet?</p>
+</body>
+</html>
